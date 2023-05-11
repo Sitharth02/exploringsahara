@@ -1,0 +1,163 @@
+/* Apply a default box-sizing value to all elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Set some basic styles for the body */
+  body {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/sahara-desert-sand-dunes.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    color: #fff;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the main content area */
+  main {
+    color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the hero section */
+  #hero {
+    background-image: url(hero.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* Style the destinations section */
+  #destinations {
+    margin-top: 10px;
+  }
+  
+  #destinations h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #destinations ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #destinations li {
+    flex-basis: calc(33.33% - 20px);
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #destinations li:last-child {
+    margin-right: 0;
+  }
+  
+  #destinations h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #destinations p {
+    font-size: 16px;
+  }
+  
+  /* Style the about section */
+  #about {
+    margin-top: 60px;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #about p {
+    font-size: 16px;
+  }
+  
+  /* Style the contact section */
+  #contact {
+    margin-top: 60px;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact button[type="submit"] {
+    padding: 10px;
+    background-color: #fff6f6;
+    color: #ff7300;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background-color: #000000;
+  }
+  #footer 
+  {
+    color: #ffffff;
+  }

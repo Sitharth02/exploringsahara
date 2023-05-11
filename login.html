@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script type="text/javascript">
+		function login() {
+			// Here you can add the logic to check the user's credentials
+			// If the login is successful, redirect the user to the desired webpage
+			window.location.href = "index.html";
+		}
+	</script>
+</head>
+<body>
+	<div class="login-box">
+		<h2>Login</h2>
+		<form>
+			<div class="user-box">
+				<input type="text" name="username" required="">
+				<label>Username</label>
+			</div>
+			<div class="user-box">
+				<input type="password" name="password" required="">
+				<label>Password</label>
+			</div>
+			<a href="#" onclick="login()">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				Submit
+			</a>
+		</form>
+	</div>
+</body>
+</html>
